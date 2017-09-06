@@ -2,7 +2,7 @@
 
 In order to optimize Ethereum nodes for a server-like environment, Infura has had to change/omit some of the expected behavior of an Ethereum node in key ways. This document will outline what these changes were and how you can get Infura to play nicely with 0x.js.
 
-## Event watching
+### Event watching
 
 Infura has a set of Ethereum nodes hosted behind a non-sticky load balancer. Because of this, subsequent requests are not guaranteed to hit the same Ethereum node. When you call `zeroEx.exchange.subscribeAsync` (or any other 0x.js `subscribeAsync` call) to subscribe to events, a `eth_newFilter` request is sent to the backing Ethereum node, setting up a filter for the events you are interested in watching. Since this request would be routed to one of Infura's Ethereum nodes, if any subsequent `eth_getFilterLogs` request are routed to a different node, no events would be returned. Because of this non-determistic behavior, Infura currently disallows requests attempting to set up filters.
 
