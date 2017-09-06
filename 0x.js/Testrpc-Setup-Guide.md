@@ -32,10 +32,10 @@ const provider = new Web3.providers.HttpProvider('http://localhost:8545');
 
 ### Contract addresses
 
-- ZRXToken.sol: 0x25b8fe1de9daf8ba351890744ff28cf7dfa8f5e3
-- EtherToken.sol: 0x48bacb9266a570d521063ef5dd96e61686dbe788
-- Exchange.sol: 0xb69e673309512a9d726f87304c6984054f87a93b
-- TokenRegistry.sol: 0x0b1ba0af832d7c05fd64161e0db78e85978e8082
-- TokenTransferProxy.sol: 0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c
+- ZRXToken.sol: `0x25b8fe1de9daf8ba351890744ff28cf7dfa8f5e3`
+- EtherToken.sol: `0x48bacb9266a570d521063ef5dd96e61686dbe788`
+- Exchange.sol: `0xb69e673309512a9d726f87304c6984054f87a93b`
+- TokenRegistry.sol: `0x0b1ba0af832d7c05fd64161e0db78e85978e8082`
+- TokenTransferProxy.sol: `0x871dd7c2b4b25e1aa18728e9d5f2af4c4e431f5c`
 
 The entirety of the ZRX balance is in the `0x5409ed021d9299bf6814279a6a1411a7e866a631` user account setup by TestRPC.
