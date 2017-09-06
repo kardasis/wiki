@@ -13,7 +13,7 @@ They do intend on adding support for stateful transactions and you can track the
 Provider engine works similarly to middleware in a server stack. What this means is that the providerEngine instance is made up for a stack of subProviders. When your dApp makes a JSON RPC request, the providerEngine instance hands the request to the top-most subProvider. This provider looks at the request and either decides to handle the request or to pass it on to the next-in-line subProvider. This continues until the request is handled or bottoms out after passing through each subProvider. Using this architecture, the RPC request `eth_newFilter` is caught by the `FilterSubprovider` before reaching the `RpcSubprovider`, and instead of attempting to install it on Infura, it installs a filter client-side. All other requests pass through the `FilterSubprovider` and are sent to Infura.
 
 
-###### Example setup:
+##### Example setup:
 
 ```javascript
 import ProviderEngine = require('web3-provider-engine');
@@ -31,7 +31,7 @@ providerEngine.start();
 const zeroEx = new ZeroEx(providerEngine);
 ```
 
-###### Things to note
+##### Things to note
 
 - Make sure your imports are in this exact order. Because of a [global object leak in Web3](https://github.com/ethereum/web3.js/issues/844) and Provider Engine using this same [global to detect it's running environment](https://github.com/MetaMask/provider-engine/blob/master/subproviders/rpc.js#L1), your code will hang if the imports are ordered differently.
 - The order in which ProviderEngine subProviders are added matters.
