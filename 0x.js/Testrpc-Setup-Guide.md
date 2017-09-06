@@ -1,6 +1,3 @@
-0x.js TestRPC Setup Guide
--------------------------
-
 In order to run 0x.js methods that interact with the Ethereum blockchain (i.e filling an order, checking a balance or setting an allowance) you need to point your Web3 Provider to an Ethereum node. Because of the ~12 second block times, during development it is best to use [TestRPC](https://github.com/ethereumjs/testrpc) a fast Ethereum RPC client made for testing and development.
 
 Install TestRPC locally:

@@ -1,6 +1,3 @@
-0x.js Infura Setup Guide
-------------------------
-
 [Infura](https://infura.io) is a service that provides scalable Ethereum node infrastructure for dApps with significant traffic. Ethereum nodes were not built to act as server backends and have significant performance shortcomings when used in this way.
 
 In order to optimize Ethereum nodes for a server-like environment, Infura has had to change/omit some of the expected behavior of an Ethereum node in key ways. This document will outline what these changes were and how you can get Infura to play nicely with 0x.js.
