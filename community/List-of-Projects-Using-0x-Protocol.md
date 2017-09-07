@@ -18,4 +18,4 @@ These lists are composed of projects that publicly announced their interest in u
 
 + [RadarRelay](https://t.co/NIuOBGMF2l)
 + [Ethfinex](https://blog.ethfinex.com/the-ethfinex-roadmap-7c7cd82c835c)
-+ [0cean](https://blog.ethfinex.com/the-ethfinex-roadmap-7c7cd82c835c)
++ [The 0cean](https://the0cean.com)
