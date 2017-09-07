@@ -1,3 +1,5 @@
+These lists are composed of projects that publicly announced their interest in using the 0x protocol. Some projects are in stealth mode and will only be added to this wiki when ready. If your project is intending to use the 0x protocol, please submit a pull request so that we can add you to the list. 
+
 ### List of dApps that will be (or are) using the 0x protocol
 
 + [Augur](https://augur.stackexchange.com/questions/313/connection-between-0x-and-augur)
