@@ -1,4 +1,4 @@
-### List of DAPPs that will (or are) using the 0x Protocol
+### List of dApps that will (or are) using the 0x protocol
 
 + [Augur](https://augur.stackexchange.com/questions/313/connection-between-0x-and-augur)
 + [Aragon](https://blog.aragon.one/aragon-partners-with-0x-3c8d0c9dcd84?gi=b168d6992669)
@@ -10,7 +10,7 @@
 + [MelonPort](https://melon.network/)
 + [Status](https://status.im/)
 
-### List of Relayers that will (or are) using the 0x Protocol
+### List of relayers that will (or are) using the 0x protocol
 
 + [RadarRelay](https://t.co/NIuOBGMF2l)
 + [Ethfinex](https://blog.ethfinex.com/the-ethfinex-roadmap-7c7cd82c835c)
