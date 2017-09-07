@@ -10,3 +10,7 @@ This repo contains the raw markdown files that are rendered on the [wiki section
 - All wiki articles need to be within a top-level directory
 - Nested directories are disallowed
 - Article file names should be the title of the article with dashes (-) instead of spaces. Capitalization will be respected.
+
+## Attribution
+
+Did you run into an issue while integrating with 0x? Share what you learned by writing an article for our wiki and we'll add your name as the author and will even link to the project you're working on. Do good and get exposure, it's a win-win for the community.
