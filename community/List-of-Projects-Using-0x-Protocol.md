@@ -1,4 +1,4 @@
-### List of DAPPs that will be (or are) using the 0x Protocol
+### List of DAPPs that will (or are) using the 0x Protocol
 
 + [Augur](https://augur.stackexchange.com/questions/313/connection-between-0x-and-augur)
 + [Aragon](https://blog.aragon.one/aragon-partners-with-0x-3c8d0c9dcd84?gi=b168d6992669)
