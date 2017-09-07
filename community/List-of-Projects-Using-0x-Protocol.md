@@ -12,6 +12,6 @@
 
 ### List of Relayers that will (or are) using the 0x Protocol
 
-+ [Radar Relay](https://t.co/NIuOBGMF2l)
++ [RadarRelay](https://t.co/NIuOBGMF2l)
 + [Ethfinex](https://blog.ethfinex.com/the-ethfinex-roadmap-7c7cd82c835c)
 + [0cean](https://blog.ethfinex.com/the-ethfinex-roadmap-7c7cd82c835c)
