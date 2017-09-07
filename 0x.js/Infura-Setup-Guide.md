@@ -45,4 +45,4 @@ The most inefficient call implemented by Geth and Parity is `eth_getLogs`. This 
 
 If you only care about events related to your dApp's users, even better performance can be reached by setting the `fromBlock` to the block number at which your service became available. Alternatively you could also limit historical trade data to the last two months, and only query the last two months of events.
 
-This optimization is equalliy if not more important when hosting your own Ethereum node infrastructure.
+This optimization is equally if not more important when hosting your own Ethereum node infrastructure.
